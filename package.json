@@ -1,0 +1,18 @@
+{
+  "name": "hwv-file-server",
+  "version": "1.0.0",
+  "description": "A demo file server to serve azure blobs with hoops webviewer",
+  "main": "index.js",
+  "author": "Ben Z",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^3.1.3",
+    "@azure/storage-blob": "^12.12.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
